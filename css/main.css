@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    align-content: center;
+}
+
+
+.black{
+    color: #263238;
+}
+a, button {
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+/* ШАПКА ############################################################### */
+.header{
+    display: flex;
+    max-width: 1147px;
+    padding: 0 15px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+/* ЛОГОТИП ############################################################### */
+.logo{
+    width: 119px;
+    height: 56px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+/* МЕНЮ ############################################################### */
+.menu{
+    height: 52px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item{
+    display: flex;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    font: normal bold 18px Arial, Verdana, Helvetica;
+    
+}
+.menu-item li{
+    padding-right: 50px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: rgba(31, 46, 53, 0.6);
+}
+.menu-item a:hover{
+    color: rgba(31, 46, 53, .8);
+}
+
+/* ИКОНКИ ############################################################### */
+.menu-icons{
+    display: flex;
+    padding-bottom: 0;
+    align-items: center;
+    cursor: pointer;
+}
+.menu-icons-item{
+    padding: 0;
+    padding-left: 20px;
+    opacity: 80%;
+    margin: 0;
+    width: 20px;
+}
+.menu-icons-item:hover{
+    opacity: 1;
+}
+/* ПОЛОСКА ПОД ХЕДЕРОМ ############################################################### */
+.lines{
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0) ;
+    opacity: 20%;
+}
+
+/* БЛОК 1 ############################################################### */
+.block1{
+    display: flex;
+    max-width: 1147px;
+    max-height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-content: center;
+
+
+
+    /* background: url(../images/Block1/pana.png) no-repeat right center; */
+}
+/* Заголовок */
+.title{
+    margin-top: 74PX;
+}
+.title p{
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    color: #1F2E35;
+    line-height: 133.69%
+}
+/* Текст под заголовком */
+.title-text{
+    margin-top: 24px;
+}
+.title-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+
+}
+/* картинка */
+.picture-pana {
+    margin-top: 59PX;
+    width: 562.97px;
+    height: 381.61px;
+}
+
+/* кнопка */
+.title-button{
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+}
+.title-button:hover{
+    background: #bd2f33
+}
+/* .title-button p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+} */
+
+/* БЛОК 2 Welcome ############################################################### */
+.block2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 100px;
+}
+.red{
+    color: #EE4248;
+}
+.gran{
+    display: flex;
+    width: 1147px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block2-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+}
+.block2-title-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+.proger{
+    float: left;
+    margin-right: 25px;
+    padding-right: 66px;
+}
+
+
+/* БЛОК 3 Product and Service ############################################################### */
+.block3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    max-height: 459px;
+    min-width: 1147px;
+    margin-bottom: 88px;
+    
+}
+
+.pas{
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    color: #1F2E35;
+    margin-bottom: 17px;
+}
+/* Заголовок */
+.our-block-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+/* текст под заголовком */
+.our-block-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+/* картинка в блоке */
+.our-block-img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+/* Блоки */
+.our-blocks{
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    /* justify-content: space-between; */
+}
+.our-block{
+    padding-left: 24px;
+    padding-top: 24px;
+    margin-right: 10px;
+    max-width: 320px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.our-block-button{
+    background: #EE4248;
+    border: 0;
+    border-radius: 4px;
+    max-height: 42px;
+
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #fff;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.our-block-button:hover{
+    background: #bd2f33
+}
+/* .our-block-button p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #fff;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+} */
+
+/* БЛОК 4 Contact ############################################################### */
+.block4{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.LaR{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 1126px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.razdel-prav{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;   
+}
+.razdel-lev{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+    margin-right: 47px;
+}
+.block4-title-r{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 21px;
+    color: #263238;
+}
+.block4-title-l{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+}
+/* Footer ############################################################### */
+footer{
+    width: 100%;
+    height: 64px;
+    background-color: #EE4248;
+    margin-top: 67px;
+}
+footer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.none {
+    display: none !important;
+}
+
+
+/* ПРОсто меню */
+
+.hamburger-menu{
+    display: none;
+    
+}
+
+
+
+
+
+
+/* МЕНЮ БУРГЕР */
+#menu__toggle {
+    opacity: 0;
+  }
+  
+  .menu__btn {
+    display: flex; 
+    align-items: center;  
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu-item-burger {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  
+  .mi-i {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .mi-i:hover {
+    background-color: #CFD8DC;
+  }
+  
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu-item-burger {
+    visibility: visible;
+    left: 0;
+  } 
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    transition-duration: .25s;
+  }
+  .menu-item-burger {
+    transition-duration: .25s;
+  }
+  .mi-i {
+    transition-duration: .25s;
+  }
+
+
+
+  @media (max-width: 1100px){
+    .hamburger-menu{
+        display: flex;
+        z-index: 3;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .logo img{
+        width: 80%;
+    }
+    .gran{
+        display: block;
+    }
+    .block4{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 1450px){
+    .menu-item li{
+        padding-right: 40px;
+    }
+    .menu-icon{
+        margin-left: -80px;
+    }
+
+  }
+
+  @media (max-width: 997px){
+      .menu-icons{
+          float: right;
+      }
+      .block1{
+        display: block;
+        margin: auto;
+      }
+      .block2{
+        margin-top: 350px;
+      }
+  }
+
+  /* ПОД 320px мобильный */
+  @media (max-width: 320px){
+
+        /* ЛОГО */
+        .logo{margin-left: 50px; display: flex; align-items: center; justify-content: center;}
+        
+        /* БЛОК 1 */
+        .block1{display: flex;margin: auto;align-items: flex-start;flex-direction: column-reverse;justify-content: flex-end;}
+        .title p{font-size: 26px;}
+        .title{margin-top: 0;}
+        .title-text p{font-size: 16px;}
+        .title-button{font-size: 16px; width: 100px; height: 40px;}
+        .picture-pana img {width: 52%;}
+        .picture-pana{margin-bottom: 15px;}
+
+        /* БЛОК 2 */
+        .block2{margin-top: 100px;}
+        .proger img{width: 80%;} .proger{ margin-bottom: 25px; margin-top: -50px;}
+        .proger{margin-right: 0px;padding-right: 0px;}
+        .block2-title p{font-size: 26px;}
+        .block2-title-text p{font-size: 16px; margin-bottom: 0px;}
+
+        /* БЛОК 3 */
+        .block3{display: contents;}
+        .pas{font-size: 26px; font-weight: bold;}
+        .our-block-img{width: 80px;height: 80px;margin-bottom: 10px;}
+        .our-block-title{font-size: 26px;}
+        .our-block-text{font-size: 16px;}
+        .our-block-button {font-size: 16px;}
+        
+
+        /* БЛОК 4 */
+        .block4{margin-top: 40px;}
+        .block4-logo img{width: 40%;}
+        .block4-title-l{font-size: 16px;}
+        .block4-title-r{font-size: 16px;}
+        .razdel-lev{font-size: 14px;}
+        .razdel-prav{font-size: 14px;}
+        /* ПОДВАЛ */
+        footer p{font-size: 12px; margin-top: 40px;}
+  }
+
+  header{
+    align-items: center;
+  }
